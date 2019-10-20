@@ -1,5 +1,3 @@
-SITE ESTÁTICO
+#Site estático
 
-HTML5 & CSS3
-
-Flexbox
+##HTML5 - CSS3
