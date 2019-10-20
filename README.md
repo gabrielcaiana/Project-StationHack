@@ -1,3 +1,3 @@
-##Site estático
+#Site estático
 
-#HTML5, CSS3
+##HTML5 - CSS3
