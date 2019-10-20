@@ -1,0 +1,305 @@
+                        * {
+                            margin: 0;
+                            padding: 0;
+                        }
+                        
+                        h1,
+                        h2,
+                        h3,
+                        h4,
+                        button {
+                            font-family: 'Open Sans', sans-serif;
+                        }
+                        
+                        p,
+                        span,
+                        a {
+                            font-family: 'Roboto', sans-serif;
+                        }
+                        
+                        .container {
+                            width: 100%;
+                            display: flex;
+                        }
+                        /*Navegação*/
+                        
+                        nav {
+                            height: 150px;
+                            justify-content: space-around;
+                            align-items: center;
+                        }
+                        
+                        nav a {
+                            text-decoration: none;
+                            color: #F44336;
+                            padding: 0 20px;
+                            font-weight: 600;
+                            transition: 1s;
+                        }
+                        
+                        nav a:hover {
+                            color: #9E9E9E;
+                        }
+                        
+                        nav .logo img {
+                            width: 180px;
+                        }
+                        /*Header*/
+                        
+                        header {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            height: 600px;
+                            background-image: linear-gradient(to left, rgba(245, 246, 252, 0.1), rgba(29, 24, 29, 0.73)), url('imagens/banner.jfif');
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            background-attachment: fixed;
+                        }
+                        
+                        .content {
+                            width: 80%;
+                            margin-top: -150px;
+                        }
+                        
+                        .content h1 {
+                            width: 50%;
+                            min-width: 600px;
+                            color: #fff;
+                            font-size: 3em;
+                            margin-bottom: 25px;
+                        }
+                        
+                        .content p {
+                            width: 50%;
+                            min-width: 600px;
+                            color: #fff;
+                            font-size: 1.5em;
+                            margin-bottom: 25px;
+                        }
+                        
+                        .content button {
+                            background: #F44336;
+                            width: 200px;
+                            height: 60px;
+                            border-radius: 20px;
+                            color: #fff;
+                            font-weight: 700;
+                            border: none;
+                            font-size: 1.2em;
+                            transition: 1s;
+                            cursor: pointer;
+                        }
+                        
+                        .content button:hover {
+                            background: rgb(153, 23, 13);
+                        }
+                        /*Funcionalidades*/
+                        
+                        .funcionalidades {
+                            height: auto;
+                            margin-bottom: 120px;
+                        }
+                        
+                        .funcionalidades h2 {
+                            text-align: center;
+                            padding: 80px 0;
+                            color: #F44336;
+                            font-size: 2em;
+                        }
+                        
+                        .funcionalidades-content {
+                            display: flex;
+                            justify-content: center;
+                        }
+                        
+                        .funcionalidades-items {
+                            color: rgb(71, 70, 70);
+                            padding: 20px 0;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            text-align: center;
+                            width: 18%;
+                            height: auto;
+                            margin: 0 20px;
+                            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+                            transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+                            border-radius: 10px;
+                        }
+                        
+                        .funcionalidades-items:hover {
+                            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+                        }
+                        
+                        .funcionalidades-items img {
+                            width: 80px;
+                            padding: 20px;
+                        }
+                        
+                        .funcionalidades-items span {
+                            font-size: 1.2em;
+                            margin: 10px 0 20px 0;
+                            font-weight: 600;
+                        }
+                        /*About*/
+                        
+                        .about {
+                            height: auto;
+                            padding-bottom: 60px;
+                            margin-bottom: 50px;
+                        }
+                        
+                        .about article {
+                            display: flex;
+                            justify-content: center;
+                        }
+                        
+                        .about h4 {
+                            text-align: center;
+                            padding: 80px 0;
+                            color: #F44336;
+                            font-size: 2em;
+                        }
+                        
+                        .about div {
+                            width: 40%;
+                            padding: 10px;
+                            box-sizing: border-box;
+                            margin: 0 20px;
+                        }
+                        
+                        .about p {
+                            margin: 20px 0;
+                            font-size: 1.2em;
+                            color: rgb(71, 70, 70);
+                        }
+                        
+                        .about article button {
+                            margin-top: 25px;
+                            background: #f44336;
+                            width: 200px;
+                            height: 60px;
+                            border-radius: 20px;
+                            color: #fff;
+                            font-weight: 700;
+                            border: none;
+                            font-size: 1.2em;
+                            transition: 1s;
+                            cursor: pointer;
+                        }
+                        
+                        .about article button:hover {
+                            background: rgb(153, 23, 13);
+                        }
+                        
+                        .about-imagem img {
+                            max-width: 600px;
+                        }
+                        /*Seção Download*/
+                        
+                        .secao-download {
+                            background-image: linear-gradient(to left, rgba(244, 67, 54, 0.7), rgba(244, 67, 54, 0.7)), url('imagens/banner.jfif');
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            background-attachment: fixed;
+                            height: auto;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+                            padding: 30px 0;
+                        }
+                        
+                        .secao-download h3 {
+                            color: #fff;
+                            font-weight: 600;
+                            font-size: 2em;
+                            margin: 20px 0;
+                        }
+                        
+                        .secao-download button {
+                            margin-top: 25px;
+                            background: #fff;
+                            width: 200px;
+                            height: 50px;
+                            border-radius: 20px;
+                            color: rgb(71, 70, 70);
+                            font-weight: 700;
+                            border: none;
+                            font-size: 1.2em;
+                            transition: 1s;
+                            cursor: pointer;
+                        }
+                        
+                        .secao-download button:hover {
+                            background: rgb(244, 67, 54);
+                            color: #fff;
+                        }
+                        /*Contato*/
+                        
+                        .contato {
+                            background: #eee;
+                            height: auto;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            padding: 100px 0;
+                        }
+                        
+                        .contato div {
+                            width: 40%;
+                            height: 400px;
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        
+                        .contato h4 {
+                            font-size: 2em;
+                            font-weight: 600;
+                            color: #f44336;
+                            padding: 30px 0;
+                        }
+                        
+                        .contato div input,
+                        textarea {
+                            width: 60%;
+                            height: 50px;
+                            border-radius: 5px;
+                            border: 1px solid rgb(190, 190, 190);
+                            margin: 10px 0;
+                            padding: 10px;
+                        }
+                        
+                        .contato div textarea {
+                            height: 120px;
+                        }
+                        
+                        .contato div button {
+                            margin-top: 25px;
+                            background: #f44336;
+                            width: 200px;
+                            height: 60px;
+                            border-radius: 20px;
+                            color: #fff;
+                            font-weight: 700;
+                            border: none;
+                            font-size: 1.2em;
+                            transition: 1s;
+                            cursor: pointer;
+                            margin-bottom: 20px;
+                            padding: 10px;
+                        }
+                        /*Footer*/
+                        
+                        footer {
+                            width: 100%;
+                            height: 60px;
+                            display: flex;
+                            background: rgb(43, 42, 42);
+                            color: #fff;
+                            font-weight: 600;
+                            font-size: 1em;
+                            align-items: center;
+                            justify-content: center;
+                        }
